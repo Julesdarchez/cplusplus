@@ -45,12 +45,35 @@ int essayer_code(unsigned short code)
 void exo3(void)
 {
 	int p = 0;
-	while (p != essayer_code(70)) {
-		p = p + 1;
+	int n = 0;
+	while (essayer_code(n) != 1 ){
+		n = n + 1;
 	}
+std:n;
+}
+
+unsigned short lancer_de();
+{
+	srand(time(NULL));
+	return (rand() % 6) + 1;
+}
+
+void exo4(void)
+{
+	int joueur1 = 0;
+	int joueur2 = 0;
+	int tour = 0;
+	int point = 0;
+	while (joueur1 <= 50 && joueur2 <= 50)
+		int x = lancer_de();
+		while (x != 1);
+		if (x % 2 == 0)
+			point = point + x;
+		if (x==3)
+			point = point * 2
 		
 
 
-}
 
+}
 
