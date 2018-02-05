@@ -14,3 +14,17 @@ void exo1(void)
 	}
 #endif
 }
+void exo2(void)
+{
+	long n = 3, fac = 1, i = 1;
+
+	if (n > 0)
+		while (i <= n)
+		{
+			fac = fac * i;
+			i = i + 1;
+		}
+	else
+		if (n < 0)
+			fac = 0;
+}
